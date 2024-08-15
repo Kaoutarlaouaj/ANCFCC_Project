@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document id="polygones">
+	<name>polygones</name>
+	<Schema name="C:/Users/hp/Downloads/parcelle.kml" id="polygones.schema">
+		<SimpleField type="string" name="Parcelle"></SimpleField>
+	</Schema>
+	<Placemark id="polygones.1">
+		<TimeSpan>
+			<begin>0013</begin>
+			<end>0028</end>
+		</TimeSpan>
+		<ExtendedData>
+			<SchemaData schemaUrl="#polygones.schema">
+				<SimpleData name="Parcelle">Barrage des Cendres</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-2.19598314068673,34.2911962633584,0 -2.19496846301359,34.2897707724821,0 -2.19499728490786,34.287979015241,0 -2.19406854722546,34.2860919296795,0 -2.1957730093016,34.2854844308148,0 -2.19981473369073,34.2840217018754,0 -2.20163264164296,34.2836389327071,0 -2.20217416979082,34.2841134197261,0 -2.20149427392856,34.2848105000125,0 -2.2009793574422,34.285630854351,0 -2.2006798663938,34.2860063572099,0 -2.19917741077869,34.2876946513968,0 -2.19826571400551,34.288727620319,0 -2.19782046474644,34.2893760802434,0 -2.19762440804,34.2896107756201,0 -2.19738046793614,34.2898705922271,0 -2.19598314068673,34.2911962633584,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="polygones.2">
+		<TimeSpan>
+			<begin>0002</begin>
+			<end>0012</end>
+		</TimeSpan>
+		<ExtendedData>
+			<SchemaData schemaUrl="#polygones.schema">
+				<SimpleData name="Parcelle">Usine</SimpleData>
+			</SchemaData>
+		</ExtendedData>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-2.19955918994469,34.3119761117498,0 -2.19953131473053,34.3120361134194,0 -2.1994003698313,34.3127667275434,0 -2.19875231546457,34.3142129812024,0 -2.19734144410048,34.314619349577,0 -2.19497178950521,34.3153479421421,0 -2.19290510055788,34.3131654762117,0 -2.18869182347872,34.3113378957068,0 -2.1938388450487,34.3099990123668,0 -2.19925948509412,34.3112315575343,0 -2.19955918994469,34.3119761117498,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
